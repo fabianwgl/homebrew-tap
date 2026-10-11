@@ -7,7 +7,7 @@ cask "dvsk" do
   desc "Open-source f.lux alternative that warms the screen in the evening"
   homepage "https://github.com/fabianwgl/dvsk"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Dvsk.app"
 
